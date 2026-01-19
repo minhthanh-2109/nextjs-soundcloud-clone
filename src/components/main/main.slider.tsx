@@ -60,7 +60,6 @@ const MainSlider = (props: IProps) => {
     };
     //box === div
     return (
-
         <Box
             sx={{
                 margin: "0 50px",

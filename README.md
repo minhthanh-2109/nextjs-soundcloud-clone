@@ -1,12 +1,24 @@
-### Next.js + MUI + TypeScript (Hỏi Dân IT)
+### Next.js + MUI + TypeScript (Soundcloud Clone)
 
-Template này được sử dụng cho series React/Next.JS của tác giả Hỏi Dân IT (Eric)
+Công nghệ được sử dụng React/Next.JS + MUI + Typescript
 
-Các bước cần làm:
+Cụ thể:
+### FE
+1. Sử dụng MUI để thiết kế giao diện + html + css thuần để customize.
 
-1. Clone dự án
-2. Cài đặt các thư viện cần thiết: npm i
+2. Module Wavesurfer 
+
+Fetch API để phát nhạc, customize Wavesurfer như Soundcloud
+
+ 2.1. Viết custom Hook cho js library Wavesurfer để tích hợp vào app React/NextJS.
+ 2.2. Sử dụng các Hook của React như useState(), useRef(), useEffect(), useCallback(), useMemo() 1 cách hợp lý để tối ưu app cũng như tận dụng sức mạnh của React.
+
+2. Module Authorization
+
 3. Chạy dự án với câu lệnh: npm run dev
 
- 
+### BE
+1. Set up database với MongoDB
+2. Kết nối backend được cung cấp sẵn với database được dùng cho dự án
+
 Truy cập:  http://localhost:3000/

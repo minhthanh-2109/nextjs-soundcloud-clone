@@ -158,7 +158,7 @@ export default function AppHeader() {
 
     return (
         <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="static" sx={{ backgroundColor: "#14314ec4" }}>
+            <AppBar position="static" sx={{ background: "linear-gradient(135deg, #606678, #7c656c)" }}>
                 <Container>
                     <Toolbar>
                         <Typography
