@@ -1,0 +1,123 @@
+.sc-player {
+    display: flex;
+    align-items: stretch;
+    gap: 24px;
+    padding: 28px 32px;
+    background: linear-gradient(135deg, #8d7a7f, #9a7c86);
+    border-radius: 10px;
+    color: #fff;
+    font-family: Inter, sans-serif;
+}
+
+/* LEFT */
+.sc-left {
+    display: flex;
+    align-items: flex-start;
+}
+
+.sc-play-btn {
+    width: 64px; // ↑ từ 48
+    height: 64px;
+    border-radius: 50%;
+    border: none;
+    background: #111;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+
+    &:hover {
+        background: #000;
+    }
+}
+
+/* CENTER */
+.sc-center {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.sc-track-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.sc-title {
+    font-size: 18px;
+    font-weight: 600;
+    background: #000;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 6px 8px;
+}
+
+.sc-user {
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+/* WAVEFORM */
+.sc-waveform {
+    position: relative;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    padding: 12px 0;
+}
+
+.wave-surfer-container {
+    position: relative;
+    min-height: 120px;
+}
+
+/* time indicators */
+.time,
+.duration {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 12px;
+    background: #000;
+    padding: 4px 6px;
+    border-radius: 2px;
+}
+
+.time {
+    left: 0;
+}
+
+.duration {
+    right: 0;
+}
+
+/* hover line */
+.hover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: rgba(255, 255, 255, 0.4);
+    pointer-events: none;
+}
+
+/* RIGHT */
+.sc-right {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+}
+
+.sc-time {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.sc-cover {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
